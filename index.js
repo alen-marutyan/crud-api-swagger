@@ -10,7 +10,7 @@ const server = http.createServer(app);
 const PORT = process.env.PORT || 5000;
 
 const corsOption = {
-    origin: ["https://api-docs-swagger1.onrender.com", "https://render.com" ],
+    origin: "*",
 };
 app.use(cors(corsOption));
 
