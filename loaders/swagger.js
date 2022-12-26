@@ -12,7 +12,7 @@ const swagger = (app) => {
             },
             servers: [
                 {
-                    url: "http://localhost:5000"
+                    url: "https://api-docs-swagger1.onrender.com"
                 }
             ]
         },
